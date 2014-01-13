@@ -40,9 +40,9 @@ Esta wiki é um documento vivo. Tendo em vista que normas e melhores práticas m
   * [Testes](#testes)
   * [Performance](#performance)
   * [Acessibilidade](#acessibilidade)
-4. [Análise](#)
-  * [Google Analytics](#)
-  * [Desempenho](#)
+4. [Análise](#análise)
+  * [Google Analytics](#google-analytics)
+  * [Desempenho](#desempenho)
 5. [Links para consulta](#)
   * [Princípios para escrever CSS de forma consistente](http://tableless.com.br/principios-para-escrever-css-de-forma-consistente/)
   * Drupal Commons
@@ -75,3 +75,10 @@ Sobre as formas de [Teste](#testes), como melhorar a [Performance](#performance)
 
 ## Acessibilidade
 
+# Análise
+
+[Google Analytics](#google-analytics) e outras ferramentas para mensurar resultados e melhorar o [Desempenho](#desempenho) da aplicação.
+
+## Google Analytics
+
+## Desempenho
