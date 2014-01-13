@@ -10,18 +10,18 @@ Esta wiki é um documento vivo. Tendo em vista que normas e melhores práticas m
 
 # Tabela de Conteúdo
 
-1. [Guias de Alinhamento](#)
-  * [Versionamento](#)
+1. [Guias de Alinhamento](#guias-de-alinhamento)
+  * [Versionamento](#versionamento)
     * [Tags and Releases](#)
     * [Git Submódulos](#)
     * [Branches](#)
-  * [Visual Design](#)
+  * [Visual Design](#visual-design)
     * [Style Guide](#)
     * [Layout Guide](#)
     * [Component Guide](#)
     * [Tipografia](#)
     * [Iconografia](#)
-  * [Código](#)
+  * [Código](#codigo)
     * [Stylesheets](#)
       * [Convenções](#)
       * [Padrões e Mixins](#)
@@ -48,3 +48,14 @@ Esta wiki é um documento vivo. Tendo em vista que normas e melhores práticas m
   * Drupal Commons
     * [Releases](https://drupal.org/node/2067473)
     * [Issues](https://drupal.org/node/2067477)
+
+# Guias de Alinhamento
+
+São convenções para facilitar o desenvolvimento. São usadas para [Versionamento](#versionamento), [Visual Design](#visual-design) e para manter o [Código](#codigo) consistente, com padrões pré-estabelecidos.
+
+## Versionamento
+
+## Visual Design
+
+## Código
+
