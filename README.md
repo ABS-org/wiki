@@ -43,9 +43,9 @@ Esta wiki é um documento vivo. Tendo em vista que normas e melhores práticas m
 4. [Análise](#análise)
   * [Google Analytics](#google-analytics)
   * [Desempenho](#desempenho)
-5. [Links para consulta](#)
+5. **Links para consulta**
   * [Princípios para escrever CSS de forma consistente](http://tableless.com.br/principios-para-escrever-css-de-forma-consistente/)
-  * Drupal Commons
+  * **Drupal Commons**
     * [Releases](https://drupal.org/node/2067473)
     * [Issues](https://drupal.org/node/2067477)
 
