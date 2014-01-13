@@ -21,7 +21,7 @@ Esta wiki é um documento vivo. Tendo em vista que normas e melhores práticas m
     * [Component Guide](#)
     * [Tipografia](#)
     * [Iconografia](#)
-  * [Código](#codigo)
+  * [Código](#código)
     * [Stylesheets](#)
       * [Convenções](#)
       * [Padrões e Mixins](#)
@@ -51,7 +51,7 @@ Esta wiki é um documento vivo. Tendo em vista que normas e melhores práticas m
 
 # Guias de Alinhamento
 
-São convenções para facilitar o desenvolvimento. São usadas para [Versionamento](#versionamento), [Visual Design](#visual-design) e para manter o [Código](#codigo) consistente, com padrões pré-estabelecidos.
+São convenções para facilitar o desenvolvimento. São usadas para [Versionamento](#versionamento), [Visual Design](#visual-design) e para manter o [Código](#código) consistente, com padrões pré-estabelecidos.
 
 ## Versionamento
 
