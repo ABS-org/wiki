@@ -48,6 +48,11 @@ Esta wiki é um documento vivo. Tendo em vista que normas e melhores práticas m
   * **Drupal Commons**
     * [Releases](https://drupal.org/node/2067473)
     * [Issues](https://drupal.org/node/2067477)
+6. [Como Contribuir](#como-contribuir)
+  * [Requisitos](#requisitos)
+  * [Issues](#issues)
+    * [Criando uma Issue](#criando-uma-issue)
+    * [Informando um Bug](#informando-um-bug)
 
 # Guias de Alinhamento
 
@@ -82,3 +87,17 @@ Sobre as formas de [Teste](#testes), como melhorar a [Performance](#performance)
 ## Google Analytics
 
 ## Desempenho
+
+# Como Contribuir
+
+Para contribuir é necessário ter as ferramentas listadas na seção de [Requisitos](#requisitos). Caso precise de ajuda e sua dúvida não esteja respondida nesta wiki, talvez a seção [Issues](#issues) poderá lhe ajudar.
+
+## Requisitos
+
+## Issues
+
+São questões relacionadas ao projeto. Propostas de feature, aviso para um bug encontrado ou dúvidas. É possível [abrir uma issue](https://github.com/ABS-org/wiki/issues) e iniciar uma discussão para ter a dúvida respondida, bug corrigido ou feature implementada.
+
+### Criando uma Issue
+
+### Informando um Bug
