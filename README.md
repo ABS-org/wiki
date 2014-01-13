@@ -73,5 +73,5 @@ Sobre as formas de [Teste](#testes), como melhorar a [Performance](#performance)
 
 ## Performance
 
-## Acessiblidade
+## Acessibilidade
 
