@@ -34,8 +34,8 @@ Esta wiki é um documento vivo. Tendo em vista que normas e melhores práticas m
       * [Elementos](#)
         * [Tipos](#)
         * [States](#)    
-2. [Gerenciamento](#)
-  * [Ferramentas](#)
+2. [Gerenciamento](#gerenciamento)
+  * [Ferramentas](#ferramentas)
 3. [Manutenção](#)
   * [Testes](#)
   * [Performance](#)
@@ -59,3 +59,8 @@ São convenções para facilitar o desenvolvimento. São usadas para [Versioname
 
 ## Código
 
+# Gerenciamento
+
+[Ferramentas](#ferramentas) e explicação do(s) workflow(s) utilizados para gerenciar os projetos.
+
+## Ferramentas
