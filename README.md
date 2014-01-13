@@ -36,10 +36,10 @@ Esta wiki é um documento vivo. Tendo em vista que normas e melhores práticas m
         * [States](#)    
 2. [Gerenciamento](#gerenciamento)
   * [Ferramentas](#ferramentas)
-3. [Manutenção](#)
-  * [Testes](#)
-  * [Performance](#)
-  * [Acessibilidade](#)
+3. [Manutenção](#manutenção)
+  * [Testes](#testes)
+  * [Performance](#performance)
+  * [Acessibilidade](#acessibilidade)
 4. [Análise](#)
   * [Google Analytics](#)
   * [Desempenho](#)
@@ -64,3 +64,14 @@ São convenções para facilitar o desenvolvimento. São usadas para [Versioname
 [Ferramentas](#ferramentas) e explicação do(s) workflow(s) utilizados para gerenciar os projetos.
 
 ## Ferramentas
+
+# Manutenção
+
+Sobre as formas de [Teste](#testes), como melhorar a [Performance](#performance) e tornar a aplicação [Acessível](#acessibilidade) aos diferentes disposivos e pessoas com deficiência.
+
+## Testes
+
+## Performance
+
+## Acessiblidade
+
