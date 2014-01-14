@@ -12,7 +12,7 @@ Esta wiki é um documento vivo. Tendo em vista que normas e melhores práticas m
 
 1. [Guias de Alinhamento](#guias-de-alinhamento)
   * [Versionamento](#versionamento)
-    * [Tags and Releases](#)
+    * [Tags and Releases](#tags-and-releases)
     * [Git Submódulos](#)
     * [Branches](#)
   * [Visual Design](#visual-design)
@@ -63,6 +63,8 @@ São convenções para facilitar o desenvolvimento. São usadas para [Versioname
 Usaremos [SEMVER] (http://semver.org/) (Semantic Versioning), e dividiremos cada sprint, em uma versão específica. É preciso ter noção do quanto a implementação irá impactar na aplicação como um todo. Assim podemos passar da *v0.0.1* direto para *v0.0.2* ou para *v0.0.15*, dependendo do tamanho da implementação feita, sempre seguindo as convenções do [SEMVER] (http://semver.org/).
 
 O versionamento é importante principalmente quando se tem vários projetos correlacionados, em que um depende do outro para funcionar. Assim podemos referenciar uma dependência a uma versão específica e saber que features a versão desta dependência proporciona, se é estável ou não etc. Assim, a cada nova versão de uma dependência, teremos a escolha integra-la ou não em nosso projeto, sabendo com precisão seu estágio e o que ela proporciona.
+
+### Tags and Releases
 
 ## Visual Design
 
