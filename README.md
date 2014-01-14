@@ -13,7 +13,7 @@ Esta wiki é um documento vivo. Tendo em vista que normas e melhores práticas m
 1. [Guias de Alinhamento](#guias-de-alinhamento)
   * [Versionamento](#versionamento)
     * [Tags and Releases](#tags-and-releases)
-    * [Git Submódulos](#)
+    * [Git Submódulos](#git-submódulos)
     * [Branches](#)
   * [Visual Design](#visual-design)
     * [Style Guide](#)
@@ -67,6 +67,8 @@ O versionamento é importante principalmente quando se tem vários projetos corr
 ### Tags and Releases
 
 [Tags](http://git-scm.com/book/pt-br/Git-Essencial-Tagging) e [Releases](https://help.github.com/articles/creating-releases) tem como objetivo referenciar um estágio do desenvolvimento. A diferença entra elas, apesar de ambas serem "tags de referência", é que a release representa mudanças significativas no contexto da aplicação, enquanto a tag representa um estágio menos significativo. Pode-se dizer que uma release é um conjunto de tags compiladas.
+
+### GIT Submódulos
 
 ## Visual Design
 
