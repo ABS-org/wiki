@@ -66,6 +66,8 @@ O versionamento é importante principalmente quando se tem vários projetos corr
 
 ### Tags and Releases
 
+[Tags](http://git-scm.com/book/pt-br/Git-Essencial-Tagging) e [Releases](https://help.github.com/articles/creating-releases) tem como objetivo referenciar um estágio do desenvolvimento. A diferença entra elas, apesar de ambas serem "tags de referência", é que a release representa mudanças significativas no contexto da aplicação, enquanto a tag representa um estágio menos significativo. Pode-se dizer que uma release é um conjunto de tags compiladas.
+
 ## Visual Design
 
 ## Código
