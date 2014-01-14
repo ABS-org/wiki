@@ -14,7 +14,7 @@ Esta wiki é um documento vivo. Tendo em vista que normas e melhores práticas m
   * [Versionamento](#versionamento)
     * [Tags and Releases](#tags-and-releases)
     * [Git Submódulos](#git-submódulos)
-    * [Branches](#)
+    * [Branches](#branches)
   * [Visual Design](#visual-design)
     * [Style Guide](#)
     * [Layout Guide](#)
@@ -71,6 +71,8 @@ O versionamento é importante principalmente quando se tem vários projetos corr
 ### GIT Submódulos
 
 Os [Submódulos do GIT](http://git-scm.com/book/pt-br/Ferramentas-do-Git-Subm%C3%B3dulos) funcionam basicamente como um repositório GIT dentro de outro, assim podemos ter um *superprojeto* contendo vários repositórios versionados de forma independente.
+
+### Branches
 
 ## Visual Design
 
