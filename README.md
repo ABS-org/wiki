@@ -60,6 +60,8 @@ São convenções para facilitar o desenvolvimento. São usadas para [Versioname
 
 ## Versionamento
 
+Usaremos [SEMVER] (http://semver.org/) (Semantic Versioning), e dividiremos cada sprint, em uma versão específica. É preciso ter noção do quanto a implementação irá impactar na aplicação como um todo. Assim podemos passar da *v0.0.1* direto para *v0.0.2* ou para *v0.0.15*, dependendo do tamanho da implementação feita, sempre seguindo as convenções do [SEMVER] (http://semver.org/).
+
 ## Visual Design
 
 ## Código
