@@ -70,6 +70,8 @@ O versionamento é importante principalmente quando se tem vários projetos corr
 
 ### GIT Submódulos
 
+Os [Submódulos do GIT](http://git-scm.com/book/pt-br/Ferramentas-do-Git-Subm%C3%B3dulos) funcionam basicamente como um repositório GIT dentro de outro, assim podemos ter um *superprojeto* contendo vários repositórios versionados de forma independente.
+
 ## Visual Design
 
 ## Código
