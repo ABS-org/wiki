@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Wiki CP by ABS-org</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Wiki CP</h1>
+        <h2>Wiki de convenções e boas práticas para projetos da Comunidade de Práticas</h2>
+        <a href="https://github.com/ABS-org/wiki" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="wiki-abs" class="anchor" href="#wiki-abs"><span class="octicon octicon-link"></span></a>Wiki ABS</h1>
+
+<p><strong>Wiki para visão geral de projetos da Atenção Básica à Saúde</strong></p>
+
+<p>Esta wiki reúne um conjunto de padrões para desenvolvimento de projetos. Incluem-se as normas e as melhores práticas para vários aspectos de um projeto, desde o levantamento de requisitos, passando pelo setup do projeto, desenvolvimento, até sua manutenção e análise qualitativa. Apesar de diferente, esta wiki teve como inspiração o guia <a href="https://github.com/Snugug/north">North</a>, que reune, mas com uma abrangência maior, padrões de desenvolvimento de projetos.</p>
+
+<p>Esta wiki é um documento vivo. Tendo em vista que normas e melhores práticas mudam, este documento também deve mudar com elas. Para referenciar e acompanhar as mudanças usaremos <a href="http://semver.org/">SEMVER</a> como parâmetro de versionamento. Contribuições são mais do que bem-vindas, desde que as <a href="#como-contribuir">Orientações de Contribuição</a> sejam seguidas.</p>
+
+<p><em>Atualmente estamos na versão,<a href="https://github.com/ABS-org/wiki/releases/tag/v0.0.1">v0.0.1</a>, que é o início de tudo. Ao passo em que a evolução for acontecendo, caminharemos para uma versão mais sólida e consistente.</em></p>
+
+<h1>
+<a name="tabela-de-conte%C3%BAdo" class="anchor" href="#tabela-de-conte%C3%BAdo"><span class="octicon octicon-link"></span></a>Tabela de Conteúdo</h1>
+
+<ol>
+<li>
+<a href="#guias-de-alinhamento">Guias de Alinhamento</a>
+
+<ul>
+<li>
+<a href="#versionamento">Versionamento</a>
+
+<ul>
+<li><a href="#tags-and-releases">Tags and Releases</a></li>
+<li><a href="#git-subm%C3%B3dulos">Git Submódulos</a></li>
+<li><a href="#branches">Branches</a></li>
+</ul>
+</li>
+<li>
+<a href="#visual-design">Visual Design</a>
+
+<ul>
+<li><a href="#">Style Guide</a></li>
+<li><a href="#">Layout Guide</a></li>
+<li><a href="#">Component Guide</a></li>
+<li><a href="#">Tipografia</a></li>
+<li><a href="#">Iconografia</a></li>
+</ul>
+</li>
+<li>
+<a href="#c%C3%B3digo">Código</a>
+
+<ul>
+<li>
+<a href="#">Stylesheets</a>
+
+<ul>
+<li><a href="#">Convenções</a></li>
+<li><a href="#">Padrões e Mixins</a></li>
+</ul>
+</li>
+<li>
+<a href="#">Markup</a>
+
+<ul>
+<li><a href="#">HTML Semantics</a></li>
+<li><a href="#">Temas</a></li>
+<li><a href="#">Layouts</a></li>
+<li><a href="#">Partials</a></li>
+<li><a href="#">Componentes</a></li>
+<li>
+<a href="#">Elementos</a>
+
+<ul>
+<li><a href="#">Tipos</a></li>
+<li>
+<a href="#">States</a><br>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#gerenciamento">Gerenciamento</a>
+
+<ul>
+<li><a href="#ferramentas">Ferramentas</a></li>
+</ul>
+</li>
+<li>
+<a href="#manuten%C3%A7%C3%A3o">Manutenção</a>
+
+<ul>
+<li><a href="#testes">Testes</a></li>
+<li><a href="#performance">Performance</a></li>
+<li><a href="#acessibilidade">Acessibilidade</a></li>
+</ul>
+</li>
+<li>
+<a href="#an%C3%A1lise">Análise</a>
+
+<ul>
+<li><a href="#google-analytics">Google Analytics</a></li>
+<li><a href="#desempenho">Desempenho</a></li>
+</ul>
+</li>
+<li>
+<strong>Links para consulta</strong>
+
+<ul>
+<li><a href="http://tableless.com.br/principios-para-escrever-css-de-forma-consistente/">Princípios para escrever CSS de forma consistente</a></li>
+<li>
+<strong>Drupal Commons</strong>
+
+<ul>
+<li><a href="https://drupal.org/node/2067473">Releases</a></li>
+<li><a href="https://drupal.org/node/2067477">Issues</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<a href="#como-contribuir">Como Contribuir</a>
+
+<ul>
+<li><a href="#requisitos">Requisitos</a></li>
+<li>
+<a href="#issues">Issues</a>
+
+<ul>
+<li><a href="#criando-uma-issue">Criando uma Issue</a></li>
+<li><a href="#informando-um-bug">Informando um Bug</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol><h1>
+<a name="guias-de-alinhamento" class="anchor" href="#guias-de-alinhamento"><span class="octicon octicon-link"></span></a>Guias de Alinhamento</h1>
+
+<p>São convenções para facilitar o desenvolvimento. São usadas para <a href="#versionamento">Versionamento</a>, <a href="#visual-design">Visual Design</a> e para manter o <a href="#c%C3%B3digo">Código</a> consistente, com padrões pré-estabelecidos.</p>
+
+<h2>
+<a name="versionamento" class="anchor" href="#versionamento"><span class="octicon octicon-link"></span></a>Versionamento</h2>
+
+<p>Usaremos <a href="http://semver.org/">SEMVER</a> (Semantic Versioning), e dividiremos cada sprint, em uma versão específica. É preciso ter noção do quanto a implementação irá impactar na aplicação como um todo. Assim podemos passar da <em>v0.0.1</em> direto para <em>v0.0.2</em> ou para <em>v0.0.15</em>, dependendo do tamanho da implementação feita, sempre seguindo as convenções do <a href="http://semver.org/">SEMVER</a>.</p>
+
+<p>O versionamento é importante principalmente quando se tem vários projetos correlacionados, em que um depende do outro para funcionar. Assim podemos referenciar uma dependência a uma versão específica e saber que features a versão desta dependência proporciona, se é estável ou não etc. Assim, a cada nova versão de uma dependência, teremos a escolha integra-la ou não em nosso projeto, sabendo com precisão seu estágio e o que ela proporciona.</p>
+
+<h3>
+<a name="tags-and-releases" class="anchor" href="#tags-and-releases"><span class="octicon octicon-link"></span></a>Tags and Releases</h3>
+
+<p><a href="http://git-scm.com/book/pt-br/Git-Essencial-Tagging">Tags</a> e <a href="https://help.github.com/articles/creating-releases">Releases</a> tem como objetivo referenciar um estágio do desenvolvimento. A diferença entra elas, apesar de ambas serem "tags de referência", é que a release representa mudanças significativas no contexto da aplicação, enquanto a tag representa um estágio menos significativo. Pode-se dizer que uma release é um conjunto de tags compiladas.</p>
+
+<h3>
+<a name="git-subm%C3%B3dulos" class="anchor" href="#git-subm%C3%B3dulos"><span class="octicon octicon-link"></span></a>GIT Submódulos</h3>
+
+<p>Os <a href="http://git-scm.com/book/pt-br/Ferramentas-do-Git-Subm%C3%B3dulos">Submódulos do GIT</a> funcionam basicamente como um repositório GIT dentro de outro, assim podemos ter um <em>superprojeto</em> contendo vários repositórios versionados de forma independente.</p>
+
+<h3>
+<a name="branches" class="anchor" href="#branches"><span class="octicon octicon-link"></span></a>Branches</h3>
+
+<h2>
+<a name="visual-design" class="anchor" href="#visual-design"><span class="octicon octicon-link"></span></a>Visual Design</h2>
+
+<h2>
+<a name="c%C3%B3digo" class="anchor" href="#c%C3%B3digo"><span class="octicon octicon-link"></span></a>Código</h2>
+
+<h1>
+<a name="gerenciamento" class="anchor" href="#gerenciamento"><span class="octicon octicon-link"></span></a>Gerenciamento</h1>
+
+<p><a href="#ferramentas">Ferramentas</a> e explicação do(s) workflow(s) utilizados para gerenciar os projetos.</p>
+
+<h2>
+<a name="ferramentas" class="anchor" href="#ferramentas"><span class="octicon octicon-link"></span></a>Ferramentas</h2>
+
+<h1>
+<a name="manuten%C3%A7%C3%A3o" class="anchor" href="#manuten%C3%A7%C3%A3o"><span class="octicon octicon-link"></span></a>Manutenção</h1>
+
+<p>Sobre as formas de <a href="#testes">Teste</a>, como melhorar a <a href="#performance">Performance</a> e tornar a aplicação <a href="#acessibilidade">Acessível</a> aos diferentes disposivos e pessoas com deficiência.</p>
+
+<h2>
+<a name="testes" class="anchor" href="#testes"><span class="octicon octicon-link"></span></a>Testes</h2>
+
+<h2>
+<a name="performance" class="anchor" href="#performance"><span class="octicon octicon-link"></span></a>Performance</h2>
+
+<h2>
+<a name="acessibilidade" class="anchor" href="#acessibilidade"><span class="octicon octicon-link"></span></a>Acessibilidade</h2>
+
+<h1>
+<a name="an%C3%A1lise" class="anchor" href="#an%C3%A1lise"><span class="octicon octicon-link"></span></a>Análise</h1>
+
+<p><a href="#google-analytics">Google Analytics</a> e outras ferramentas para mensurar resultados e melhorar o <a href="#desempenho">Desempenho</a> da aplicação.</p>
+
+<h2>
+<a name="google-analytics" class="anchor" href="#google-analytics"><span class="octicon octicon-link"></span></a>Google Analytics</h2>
+
+<h2>
+<a name="desempenho" class="anchor" href="#desempenho"><span class="octicon octicon-link"></span></a>Desempenho</h2>
+
+<h1>
+<a name="como-contribuir" class="anchor" href="#como-contribuir"><span class="octicon octicon-link"></span></a>Como Contribuir</h1>
+
+<p>Para contribuir é necessário ter as ferramentas listadas na seção de <a href="#requisitos">Requisitos</a>. Caso precise de ajuda e sua dúvida não esteja respondida nesta wiki, talvez a seção <a href="#issues">Issues</a> poderá lhe ajudar.</p>
+
+<h2>
+<a name="requisitos" class="anchor" href="#requisitos"><span class="octicon octicon-link"></span></a>Requisitos</h2>
+
+<h2>
+<a name="issues" class="anchor" href="#issues"><span class="octicon octicon-link"></span></a>Issues</h2>
+
+<p>São questões relacionadas ao projeto. Propostas de feature, aviso para um bug encontrado ou dúvidas. É possível <a href="https://github.com/ABS-org/wiki/issues">abrir uma issue</a> e iniciar uma discussão para ter a dúvida respondida, bug corrigido ou feature implementada.</p>
+
+<h3>
+<a name="criando-uma-issue" class="anchor" href="#criando-uma-issue"><span class="octicon octicon-link"></span></a>Criando uma Issue</h3>
+
+<h3>
+<a name="informando-um-bug" class="anchor" href="#informando-um-bug"><span class="octicon octicon-link"></span></a>Informando um Bug</h3>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/ABS-org/wiki/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/ABS-org/wiki/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/ABS-org/wiki"></a> is maintained by <a href="https://github.com/ABS-org">ABS-org</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
